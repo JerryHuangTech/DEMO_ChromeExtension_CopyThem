@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Copy Them",
+  "version": "1.0.0.0",
+  "description": "Copy",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.openai.com/chat*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "img/Code16.png",
+    "32": "img/Code32.png",
+    "48": "img/Code48.png",
+    "128": "img/Code128.png"
+  }
+}

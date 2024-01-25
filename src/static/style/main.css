@@ -1,0 +1,33 @@
+.gpt-copyit.gptc-action-buttons {
+    display: flex;
+    gap: .8rem;
+}
+
+.gpt-copyit.gptc-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.gpt-copyit.gptc-msg-details {
+    color: #9999aa;
+    font-size: .8rem;
+}
+
+.gpt-copyit.gptc-button {
+    padding: 2px;
+    cursor: pointer;
+    color: #9999aa;
+    background: #343441;
+    cursor: pointer;
+    width: auto;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.4rem;
+    transition: .2s ease-in-out;
+}
+
+.gpt-copyit.gptc-button:hover {
+    background: hsla(240, 11%, 23%, 0.8);
+}
